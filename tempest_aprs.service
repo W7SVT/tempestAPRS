@@ -1,0 +1,9 @@
+[Unit]
+Description=UDP Tempest APRS 
+
+[Service]
+ExecStart=/usr/bin/python3 /usr/local/bin/tempest_aprs.py
+WorkingDirectory=/usr/local/bin
+
+[Install]
+WantedBy=multi-user.target
