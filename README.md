@@ -10,3 +10,5 @@ sudo systemctl enable tempest_aprs.service
 sudo systemctl start tempest_aprs.service
 sudo systemctl status tempest_aprs.service
 ````
+
+https://thelifeofkenneth.com/aprx/debs/aprx_2.9.0_amd64.deb
